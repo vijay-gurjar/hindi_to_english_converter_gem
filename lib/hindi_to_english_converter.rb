@@ -4,7 +4,7 @@ require_relative "hindi_to_english_converter/version"
 
 module HindiToEnglishConverter
   def hindi_to_hinglish
-    if self.is_a?(String)
+
       hin_consonants = { क: 'k', ख: 'kh', ग: 'g', घ: 'gh', ङ: 'ṅ', च: 'c', छ: 'ch', ज: 'j', झ: 'jh', ञ: 'n', ट: 't', ठ: 'th', ड: 'd', ढ: 'dh', ण: 'n', त: 't', थ: 'th', द: 'd', ध: 'dh', न: 'n', प: 'p', फ: 'ph', ब: 'b', भ: 'bh', म: 'm', य: 'y', र: 'r', ल: 'l', व: 'v', श: 'sh', ष: 'sh', स: 's', ह: 'h', क्ष: 'ksh', त्र: 'tr', ज्ञ: 'gy' }
       hin_vowels = { अ: 'a', आ: 'a', इ: 'i', ई: 'ee', उ: 'u', ऊ: 'oo', ऋ: 'ri', ॠ: 'ri', ऌ: 'li', ॡ: 'li', ए: 'e', ऐ: 'ai', ओ: 'o', औ: 'au', अं: 'an', अः: 'an', अँ: 'an' }
       hin_matras = { ा: 'a', ि: 'i', ी: 'ee', ु: 'u', ू: 'oo', ृ: 'ri', ॄ: 'ri', ॢ: 'li', ॣ: 'li', े: 'e', ै: 'ai', ो: 'o', ौ: 'au', ं: 'an', ः: 'an', ँ: 'an' }
@@ -38,11 +38,6 @@ module HindiToEnglishConverter
         end
       end
       return c_n
-
-    else
-      return "Please Provide String Value"
-    end
-
   end
 
 
