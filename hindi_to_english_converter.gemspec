@@ -4,7 +4,7 @@ require_relative "lib/hindi_to_english_converter/version"
 
 Gem::Specification.new do |spec|
   spec.name = "hindi_to_english_converter"
-  spec.version = HintoToEnglishConverter::VERSION
+  spec.version = HindiToEnglishConverter::VERSION
   spec.authors = ["Vijay Gurjar"]
   spec.email = ["vijay.kumar@jarvis.consulting"]
 
@@ -14,7 +14,6 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/vijay-gurjar/hindi_to_english_converter_gem"
